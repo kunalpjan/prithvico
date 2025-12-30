@@ -25,10 +25,10 @@ const Navbar = () => {
               <TrendingDown className="w-6 h-6 text-primary-foreground" strokeWidth={3} />
             </div>
             <div className="flex flex-col">
-              <span className="font-logo text-xl md:text-2xl font-bold text-primary leading-none">
+              <span className="font-display text-xl md:text-2xl font-bold text-primary leading-none">
                 तारा पृथ्वीको
               </span>
-              <span className="font-logo text-lg md:text-xl font-semibold text-foreground leading-tight">
+              <span className="font-logo text-lg md:text-xl text-crayon-brown leading-tight">
                 Tara PrithviCo
               </span>
             </div>
