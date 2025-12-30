@@ -14,7 +14,7 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Sora", "sans-serif"],
+        display: ["DM Serif Display", "serif"],
         body: ["Lora", "serif"],
       },
       colors: {
