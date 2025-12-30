@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowRight, Recycle, Leaf, Zap, FileText, Package, Banknote, Trash2 } from "lucide-react";
+import { ArrowRight, Recycle, Leaf, Zap, FileText, Package, Banknote, Trash2, Truck } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import ServiceCard from "@/components/ServiceCard";
@@ -48,6 +48,12 @@ const services = [
     icon: Banknote,
     color: "bg-heart-pink",
   },
+  {
+    title: "Green Logistics",
+    description: "Low emission transport with EVs and sustainable delivery solutions.",
+    icon: Truck,
+    color: "bg-earth-green",
+  },
 ];
 
 const Index = () => {
@@ -67,12 +73,6 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             {/* Left content */}
             <div className="space-y-6 animate-fade-in-up">
-              <div className="inline-flex items-center gap-2 px-4 py-2 bg-accent/20 rounded-full border-2 border-dashed border-accent">
-                <span className="text-xl">🌱</span>
-                <span className="font-body font-semibold text-sm text-accent-foreground">
-                  Carbon Emission Matchmakers
-                </span>
-              </div>
 
               <h1 className="font-display text-5xl md:text-7xl font-bold text-foreground leading-tight">
                 Saving Earth,

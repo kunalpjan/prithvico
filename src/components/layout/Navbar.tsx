@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, TrendingDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const navLinks = [
@@ -21,8 +21,8 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center animate-wiggle">
-              <span className="text-2xl">🌍</span>
+            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
+              <TrendingDown className="w-6 h-6 text-primary-foreground" strokeWidth={3} />
             </div>
             <div className="flex flex-col">
               <span className="font-display text-2xl md:text-3xl font-bold text-primary leading-none">
