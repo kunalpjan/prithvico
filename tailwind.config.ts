@@ -15,8 +15,8 @@ export default {
     extend: {
       fontFamily: {
         display: ["DM Serif Display", "serif"],
-        logo: ["Plus Jakarta Sans", "sans-serif"],
-        body: ["Lora", "serif"],
+        logo: ["Folkra", "cursive"],
+        body: ["Poppins", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
