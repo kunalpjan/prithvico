@@ -1,4 +1,4 @@
-import { Recycle, Leaf, Zap, FileText, Package, Banknote, Trash2, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Recycle, Leaf, Zap, FileText, Package, Banknote, Trash2, ArrowRight, CheckCircle2, Truck } from "lucide-react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
@@ -93,6 +93,19 @@ const services = [
       "Competitive interest rates",
       "Quick processing",
       "Flexible repayment terms"
+    ]
+  },
+  {
+    id: "green-logistics",
+    title: "Green Logistics",
+    description: "Low emission logistics services using electric vehicles and sustainable transportation alternatives to reduce your supply chain carbon footprint.",
+    icon: Truck,
+    color: "bg-earth-green",
+    benefits: [
+      "Electric vehicle fleet",
+      "Last-mile EV delivery",
+      "Carbon-neutral shipping options",
+      "Route optimization for lower emissions"
     ]
   }
 ];

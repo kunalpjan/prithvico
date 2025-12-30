@@ -14,8 +14,8 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Caveat", "cursive"],
-        body: ["Nunito", "sans-serif"],
+        display: ["Montserrat", "sans-serif"],
+        body: ["Lora", "serif"],
       },
       colors: {
         border: "hsl(var(--border))",
