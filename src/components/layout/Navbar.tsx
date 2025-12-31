@@ -24,9 +24,12 @@ const Navbar = () => {
             <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
               <TrendingDown className="w-6 h-6 text-primary-foreground" strokeWidth={3} />
             </div>
-            <span className="font-logo text-xl md:text-2xl font-bold text-primary leading-tight">
-              <span className="text-accent">तारा</span> PrithviCo
-            </span>
+            <div className="flex flex-col">
+              <div className="h-[3px] bg-primary rounded-full mb-0.5" style={{ width: '100%' }} />
+              <span className="font-logo text-xl md:text-2xl font-bold text-primary leading-none">
+                <span className="text-accent">तारा</span> PrithviCo
+              </span>
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

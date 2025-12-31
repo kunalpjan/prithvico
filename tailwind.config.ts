@@ -14,9 +14,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["Exo 2", "sans-serif"],
-        logo: ["Exo 2", "sans-serif"],
-        body: ["Exo 2", "sans-serif"],
+        display: ["Stack Sans Notch", "sans-serif"],
+        logo: ["Stack Sans Notch", "sans-serif"],
+        body: ["Stack Sans Notch", "sans-serif"],
+        sans: ["Stack Sans Notch", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

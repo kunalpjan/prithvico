@@ -133,11 +133,11 @@
 
 @layer utilities {
   .font-display {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Stack Sans Notch', sans-serif;
   }
 
   .font-body {
-    font-family: 'Exo 2', sans-serif;
+    font-family: 'Stack Sans Notch', sans-serif;
   }
 
   /* Crayon/Sketch style borders */
