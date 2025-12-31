@@ -1,7 +1,8 @@
 import { Link, useLocation } from "react-router-dom";
 import { useState } from "react";
-import { Menu, X, TrendingDown } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Logo from "@/components/Logo";
 
 const navLinks = [
   { name: "Home", path: "/" },
@@ -20,17 +21,7 @@ const Navbar = () => {
       <div className="container mx-auto px-4 py-3">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
-              <TrendingDown className="w-6 h-6 text-primary-foreground" strokeWidth={3} />
-            </div>
-            <div className="flex flex-col">
-              <div className="h-[3px] bg-primary rounded-full mb-0.5" style={{ width: '100%' }} />
-              <span className="font-logo text-xl md:text-2xl font-bold text-primary leading-none">
-                <span className="text-accent">तारा</span> PrithviCo
-              </span>
-            </div>
-          </Link>
+          <Logo size="md" />
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center gap-1">
