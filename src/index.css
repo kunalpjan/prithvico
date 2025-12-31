@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Nunito:wght@400;500;600;700;800&display=swap');
+/* Exo 2 font is loaded via index.html */
 
 @tailwind base;
 @tailwind components;
@@ -133,11 +133,11 @@
 
 @layer utilities {
   .font-display {
-    font-family: 'Caveat', cursive;
+    font-family: 'Exo 2', sans-serif;
   }
 
   .font-body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Exo 2', sans-serif;
   }
 
   /* Crayon/Sketch style borders */
