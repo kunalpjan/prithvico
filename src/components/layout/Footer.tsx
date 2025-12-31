@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Heart, Mail, Phone, MapPin } from "lucide-react";
+import Logo from "@/components/Logo";
 
 const Footer = () => {
   return (
@@ -13,10 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2">
-              <span className="text-3xl">🌍</span>
-              <span className="font-display text-3xl font-bold">Tara PrithviCo</span>
-            </div>
+            <Logo size="lg" showIcon={false} linkTo="" className="text-primary-foreground [&_span]:text-primary-foreground" />
             <p className="font-body text-primary-foreground/90 leading-relaxed">
               Named after a mother's love, protecting Earth like the child it is. 
               We match sustainable solutions with those who need them.
