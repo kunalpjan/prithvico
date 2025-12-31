@@ -25,7 +25,7 @@ const Navbar = () => {
               <TrendingDown className="w-6 h-6 text-primary-foreground" strokeWidth={3} />
             </div>
             <span className="font-logo text-xl md:text-2xl font-bold text-primary leading-tight">
-              Tara PrithviCo
+              <span className="text-accent">तारा</span> PrithviCo
             </span>
           </Link>
 
