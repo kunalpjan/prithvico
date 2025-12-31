@@ -14,9 +14,9 @@ export default {
     },
     extend: {
       fontFamily: {
-        display: ["DM Serif Display", "serif"],
-        logo: ["Folkra", "cursive"],
-        body: ["Poppins", "sans-serif"],
+        display: ["Exo 2", "sans-serif"],
+        logo: ["Exo 2", "sans-serif"],
+        body: ["Exo 2", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",
