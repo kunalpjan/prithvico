@@ -47,15 +47,15 @@
 
     --radius: 1rem;
 
-    /* Custom Theme Colors - Grayscale */
-    --earth-green: 0 0% 70%;
-    --sky-blue: 0 0% 60%;
-    --sun-yellow: 0 0% 80%;
-    --ocean-blue: 0 0% 50%;
-    --warm-orange: 0 0% 70%;
-    --heart-pink: 0 0% 75%;
-    --cloud-white: 0 0% 95%;
-    --crayon-brown: 0 0% 40%;
+    /* Custom Theme Colors - Earthy Tones */
+    --earth-green: 120 25% 35%;
+    --sky-blue: 200 30% 45%;
+    --sun-yellow: 45 70% 55%;
+    --ocean-blue: 195 40% 40%;
+    --warm-orange: 25 60% 50%;
+    --heart-pink: 10 50% 55%;
+    --cloud-white: 40 20% 85%;
+    --crayon-brown: 30 40% 30%;
 
     /* Sidebar */
     --sidebar-background: 0 0% 5%;
@@ -97,14 +97,14 @@
     --input: 0 0% 20%;
     --ring: 0 0% 95%;
 
-    --earth-green: 0 0% 70%;
-    --sky-blue: 0 0% 60%;
-    --sun-yellow: 0 0% 80%;
-    --ocean-blue: 0 0% 50%;
-    --warm-orange: 0 0% 70%;
-    --heart-pink: 0 0% 75%;
-    --cloud-white: 0 0% 90%;
-    --crayon-brown: 0 0% 45%;
+    --earth-green: 120 25% 35%;
+    --sky-blue: 200 30% 45%;
+    --sun-yellow: 45 70% 55%;
+    --ocean-blue: 195 40% 40%;
+    --warm-orange: 25 60% 50%;
+    --heart-pink: 10 50% 55%;
+    --cloud-white: 40 20% 85%;
+    --crayon-brown: 30 40% 30%;
 
     --sidebar-background: 0 0% 5%;
     --sidebar-foreground: 0 0% 95%;
