@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
-            <Logo size="lg" showIcon={false} linkTo="" className="text-primary-foreground [&_span]:text-primary-foreground" />
+            <Logo size="lg" showIcon={false} linkTo="" />
             <p className="font-body text-primary-foreground/90 leading-relaxed">
               Named after a mother's love, protecting Earth like the child it is. 
               We match sustainable solutions with those who need them.

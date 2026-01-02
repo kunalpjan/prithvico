@@ -39,9 +39,9 @@ const Logo = ({ size = "md", showIcon = true, linkTo = "/", className = "" }: Lo
           <TrendingDown className={`${sizes.iconInner} text-primary-foreground`} strokeWidth={3} />
         </div>
       )}
-      <span className={`font-logo ${sizes.text} font-bold leading-none inline-flex`}>
-        <span className="text-accent border-t-[2.5px] border-current pt-[1px]">तारा</span>
-        <span className="text-primary border-t-[2.5px] border-current pt-[1px]">&nbsp;PrithviCo</span>
+      <span className={`font-logo ${sizes.text} font-bold leading-none inline-flex border-t-[2.5px] border-foreground pt-[1px]`}>
+        <span className="text-foreground">तारा</span>
+        <span className="text-foreground">&nbsp;PrithviCo</span>
       </span>
     </div>
   );
