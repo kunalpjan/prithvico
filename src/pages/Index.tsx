@@ -4,69 +4,63 @@ import { Button } from "@/components/ui/button";
 import Layout from "@/components/layout/Layout";
 import ServiceCard from "@/components/ServiceCard";
 import EarthMascot from "@/components/EarthMascot";
-
-const services = [
-  {
-    title: "Metal Scrap Procurement",
-    description: "Connecting suppliers with recyclers for sustainable metal processing.",
-    icon: Recycle,
-    color: "bg-earth-green",
-  },
-  {
-    title: "Waste Management",
-    description: "Smart solutions to reduce, reuse, and responsibly dispose of waste.",
-    icon: Trash2,
-    color: "bg-ocean-blue",
-  },
-  {
-    title: "Renewable Energy",
-    description: "Expert consulting for solar, wind, and sustainable energy adoption.",
-    icon: Zap,
-    color: "bg-sun-yellow",
-  },
-  {
-    title: "Plastic Credits & EPR",
-    description: "Navigate plastic credits and Extended Producer Responsibility with ease.",
-    icon: Leaf,
-    color: "bg-primary",
-  },
-  {
-    title: "ESG Reporting",
-    description: "Comprehensive environmental, social, and governance reporting services.",
-    icon: FileText,
-    color: "bg-secondary",
-  },
-  {
-    title: "Alternative Materials",
-    description: "Sourcing eco-friendly raw materials for sustainable manufacturing.",
-    icon: Package,
-    color: "bg-warm-orange",
-  },
-  {
-    title: "Corporate Lending",
-    description: "Unsecured loans to fuel your sustainable business growth.",
-    icon: Banknote,
-    color: "bg-heart-pink",
-  },
-  {
-    title: "Green Logistics",
-    description: "Low emission transport with EVs and sustainable delivery solutions.",
-    icon: Truck,
-    color: "bg-earth-green",
-  },
-];
-
+const services = [{
+  title: "Metal Scrap Procurement",
+  description: "Connecting suppliers with recyclers for sustainable metal processing.",
+  icon: Recycle,
+  color: "bg-earth-green"
+}, {
+  title: "Waste Management",
+  description: "Smart solutions to reduce, reuse, and responsibly dispose of waste.",
+  icon: Trash2,
+  color: "bg-ocean-blue"
+}, {
+  title: "Renewable Energy",
+  description: "Expert consulting for solar, wind, and sustainable energy adoption.",
+  icon: Zap,
+  color: "bg-sun-yellow"
+}, {
+  title: "Plastic Credits & EPR",
+  description: "Navigate plastic credits and Extended Producer Responsibility with ease.",
+  icon: Leaf,
+  color: "bg-primary"
+}, {
+  title: "ESG Reporting",
+  description: "Comprehensive environmental, social, and governance reporting services.",
+  icon: FileText,
+  color: "bg-secondary"
+}, {
+  title: "Alternative Materials",
+  description: "Sourcing eco-friendly raw materials for sustainable manufacturing.",
+  icon: Package,
+  color: "bg-warm-orange"
+}, {
+  title: "Corporate Lending",
+  description: "Unsecured loans to fuel your sustainable business growth.",
+  icon: Banknote,
+  color: "bg-heart-pink"
+}, {
+  title: "Green Logistics",
+  description: "Low emission transport with EVs and sustainable delivery solutions.",
+  icon: Truck,
+  color: "bg-earth-green"
+}];
 const Index = () => {
-  return (
-    <Layout>
+  return <Layout>
       {/* Hero Section */}
       <section className="min-h-[90vh] flex items-center relative overflow-hidden">
         {/* Background decorations */}
         <div className="absolute inset-0 pointer-events-none">
           <div className="absolute top-20 left-10 text-6xl opacity-20 animate-float">☁️</div>
-          <div className="absolute top-40 right-20 text-5xl opacity-20 animate-float" style={{ animationDelay: "1s" }}>☁️</div>
-          <div className="absolute bottom-20 left-1/4 text-4xl opacity-20 animate-float" style={{ animationDelay: "2s" }}>🌳</div>
-          <div className="absolute bottom-32 right-1/4 text-5xl opacity-20 animate-float" style={{ animationDelay: "1.5s" }}>🌲</div>
+          <div className="absolute top-40 right-20 text-5xl opacity-20 animate-float" style={{
+          animationDelay: "1s"
+        }}>☁️</div>
+          <div className="absolute bottom-20 left-1/4 text-4xl opacity-20 animate-float" style={{
+          animationDelay: "2s"
+        }}>🌳</div>
+          <div className="absolute bottom-32 right-1/4 text-5xl opacity-20 animate-float" style={{
+          animationDelay: "1.5s"
+        }}>🌲</div>
         </div>
 
         <div className="container mx-auto px-4 py-16">
@@ -83,9 +77,7 @@ const Index = () => {
               </h1>
 
               <p className="font-body text-lg md:text-xl text-muted-foreground max-w-lg leading-relaxed">
-                We connect sustainable solutions with those who need them. 
-                Like a mother protects her child, we protect our planet — 
-                because <span className="text-primary font-semibold">Tara</span> means love, 
+              <span className="text-primary font-semibold">Tara</span> means love, 
                 and <span className="text-earth-green font-semibold">Prithvi</span> means Earth.
               </p>
 
@@ -124,8 +116,7 @@ const Index = () => {
               "Tara is my mother's name — and I love my mom. Just as she nurtured and protected me, 
               Tara PrithviCo nurtures and protects our Earth."
             </blockquote>
-            <p className="font-body text-lg text-muted-foreground">
-              <span className="text-primary font-semibold">Prithvi</span> means Earth in Sanskrit. 
+            <p className="font-body text-lg text-muted-foreground">Like a child, our planet needs love, care, and protection. We're here to make that happen.<span className="text-primary font-semibold">Prithvi</span> means Earth in Sanskrit. 
               Like a child, our planet needs love, care, and protection. We're here to make that happen.
             </p>
             <Link to="/about" className="inline-block">
@@ -152,16 +143,7 @@ const Index = () => {
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 stagger-children">
-            {services.map((service, index) => (
-              <ServiceCard
-                key={service.title}
-                title={service.title}
-                description={service.description}
-                icon={service.icon}
-                color={service.color}
-                delay={index * 100}
-              />
-            ))}
+            {services.map((service, index) => <ServiceCard key={service.title} title={service.title} description={service.description} icon={service.icon} color={service.color} delay={index * 100} />)}
           </div>
 
           <div className="text-center mt-12">
@@ -199,8 +181,6 @@ const Index = () => {
           </div>
         </div>
       </section>
-    </Layout>
-  );
+    </Layout>;
 };
-
 export default Index;
