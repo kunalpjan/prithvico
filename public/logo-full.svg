@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="120" viewBox="0 0 400 120">
+  <!-- Logo Icon -->
+  <circle cx="60" cy="60" r="50" fill="#22c55e"/>
+  <path d="M35 45L60 70L85 45" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <path d="M60 70L60 82" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Text: तारा -->
+  <text x="130" y="50" font-family="Anek Devanagari, Noto Sans Devanagari, sans-serif" font-size="36" font-weight="600" fill="#1a1a1a">तारा</text>
+  
+  <!-- Text: PrithviCo -->
+  <text x="130" y="90" font-family="system-ui, sans-serif" font-size="32" font-weight="700" letter-spacing="2" fill="#1a1a1a">PrithviCo</text>
+</svg>
