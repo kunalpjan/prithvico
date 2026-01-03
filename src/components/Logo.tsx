@@ -33,13 +33,13 @@ const Logo = ({ size = "md", showIcon = true, linkTo = "/", className = "" }: Lo
   const sizes = sizeClasses[size];
 
   const LogoContent = () => (
-    <div className={`flex items-center gap-2 ${className}`}>
+    <div className={`flex items-stretch gap-2 ${className}`}>
       {showIcon && (
-        <div className={`${sizes.icon} rounded-full bg-primary flex items-center justify-center`}>
+        <div className={`${sizes.icon} rounded-full bg-primary flex items-center justify-center flex-shrink-0`}>
           <TrendingDown className={`${sizes.iconInner} text-primary-foreground`} strokeWidth={3} />
         </div>
       )}
-      <span className={`font-logo ${sizes.text} font-bold flex flex-col items-start leading-none -space-y-1`}>
+      <span className={`font-logo ${sizes.text} font-bold flex flex-col justify-center items-start leading-none -space-y-1`}>
         <span className="text-foreground font-devanagari font-semibold">तारा</span>
         <span className="text-foreground tracking-wider">PrithviCo</span>
       </span>
