@@ -116,7 +116,8 @@ const Index = () => {
               "Tara is my mother's name — and I love my mom. Just as she nurtured and protected me, 
               Tara PrithviCo nurtures and protects our Earth."
             </blockquote>
-            <p className="font-body text-lg text-muted-foreground">Like a child, our planet needs love, care, and protection. We're here to make that happen.<span className="text-primary font-semibold">Prithvi</span> means Earth in Sanskrit. Like a child, our planet needs love, care, and protection. We're here to make that happen.
+            <p className="font-body text-lg text-muted-foreground">
+              <span className="text-primary font-semibold">Prithvi</span> means Earth in Sanskrit. Like a child, our planet needs love, care, and protection. We're here to make that happen.
             </p>
             <Link to="/about" className="inline-block">
               <Button variant="link" className="font-body text-primary font-semibold text-lg">
