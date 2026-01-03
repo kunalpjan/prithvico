@@ -16,6 +16,7 @@ export default {
       fontFamily: {
         display: ["Stack Sans Notch", "sans-serif"],
         logo: ["Stack Sans Notch", "sans-serif"],
+        devanagari: ["Anek Devanagari", "sans-serif"],
         body: ["Stack Sans Notch", "sans-serif"],
         sans: ["Stack Sans Notch", "sans-serif"],
       },

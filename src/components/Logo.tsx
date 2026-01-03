@@ -40,7 +40,7 @@ const Logo = ({ size = "md", showIcon = true, linkTo = "/", className = "" }: Lo
         </div>
       )}
       <span className={`font-logo ${sizes.text} font-bold flex flex-col items-start leading-none -space-y-1`}>
-        <span className="text-foreground italic">तारा</span>
+        <span className="text-foreground font-devanagari font-semibold">तारा</span>
         <span className="text-foreground tracking-wider">PrithviCo</span>
       </span>
     </div>
