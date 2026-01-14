@@ -19,7 +19,7 @@ const ServiceCard = ({ title, description, icon: Icon, color, delay = 0 }: Servi
       <div 
         className={`w-16 h-16 rounded-2xl flex items-center justify-center mb-4 ${color} group-hover:animate-wiggle transition-transform`}
       >
-        <Icon className="w-8 h-8 text-white" />
+        <Icon className="w-8 h-8 text-primary-foreground" strokeWidth={2.5} />
       </div>
       <h3 className="font-display text-2xl font-bold text-foreground mb-2 group-hover:text-primary transition-colors">
         {title}
