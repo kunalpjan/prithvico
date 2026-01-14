@@ -33,16 +33,21 @@ const Logo = ({ size = "md", showIcon = true, linkTo = "/", className = "" }: Lo
   const sizes = sizeClasses[size];
 
   const LogoContent = () => (
-    <div className={`flex items-end gap-2 ${className}`}>
+    <div className={`flex flex-col ${className}`}>
+      <div className="flex items-center gap-2">
+        {showIcon && (
+          <div className={`${sizes.icon} rounded-full bg-primary flex items-center justify-center flex-shrink-0`}>
+            <TrendingDown className={`${sizes.iconInner} text-primary-foreground`} strokeWidth={3} />
+          </div>
+        )}
+        <span className={`font-logo ${sizes.text} font-bold text-foreground font-devanagari`}>तारा</span>
+      </div>
       {showIcon && (
-        <div className={`${sizes.icon} rounded-full bg-primary flex items-center justify-center flex-shrink-0`}>
-          <TrendingDown className={`${sizes.iconInner} text-primary-foreground`} strokeWidth={3} />
-        </div>
+        <span className={`font-logo ${sizes.text} font-bold text-foreground tracking-wider ml-14`}>PrithviCo</span>
       )}
-      <span className={`font-logo ${sizes.text} font-bold flex flex-col items-start leading-none`}>
-        <span className="text-foreground font-devanagari font-semibold -mb-2">तारा</span>
-        <span className="text-foreground tracking-wider">PrithviCo</span>
-      </span>
+      {!showIcon && (
+        <span className={`font-logo ${sizes.text} font-bold text-foreground tracking-wider`}>PrithviCo</span>
+      )}
     </div>
   );
 
