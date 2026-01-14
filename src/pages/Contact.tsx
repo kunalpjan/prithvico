@@ -211,10 +211,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-body font-semibold text-foreground">Email</h3>
                       <a 
-                        href="mailto:hello@taraprithvico.com" 
+                        href="mailto:kunal@prithvico.in" 
                         className="font-body text-muted-foreground hover:text-primary transition-colors"
                       >
-                        hello@taraprithvico.com
+                        kunal@prithvico.in
                       </a>
                     </div>
                   </div>
@@ -226,10 +226,10 @@ const Contact = () => {
                     <div>
                       <h3 className="font-body font-semibold text-foreground">Phone</h3>
                       <a 
-                        href="tel:+91XXXXXXXXXX" 
+                        href="tel:+916382389585" 
                         className="font-body text-muted-foreground hover:text-primary transition-colors"
                       >
-                        +91 XXX XXX XXXX
+                        +91 63823 89585
                       </a>
                     </div>
                   </div>
@@ -241,7 +241,7 @@ const Contact = () => {
                     <div>
                       <h3 className="font-body font-semibold text-foreground">WhatsApp</h3>
                       <a 
-                        href="https://wa.me/91XXXXXXXXXX" 
+                        href="https://wa.me/916382389585" 
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-body text-muted-foreground hover:text-primary transition-colors"

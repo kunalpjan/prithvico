@@ -47,13 +47,13 @@ const Footer = () => {
                 <MapPin className="w-5 h-5 flex-shrink-0 text-primary" />
                 <span>India</span>
               </div>
-              <a href="mailto:hello@taraprithvico.com" className="flex items-center gap-3 hover:text-primary hover:underline transition-all">
+              <a href="mailto:kunal@prithvico.in" className="flex items-center gap-3 hover:text-primary hover:underline transition-all">
                 <Mail className="w-5 h-5 flex-shrink-0 text-primary" />
-                <span>hello@taraprithvico.com</span>
+                <span>kunal@prithvico.in</span>
               </a>
-              <a href="tel:+91XXXXXXXXXX" className="flex items-center gap-3 hover:text-primary hover:underline transition-all">
+              <a href="tel:+916382389585" className="flex items-center gap-3 hover:text-primary hover:underline transition-all">
                 <Phone className="w-5 h-5 flex-shrink-0 text-primary" />
-                <span>+91 XXX XXX XXXX</span>
+                <span>+91 63823 89585</span>
               </a>
             </div>
           </div>
